@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Sample Test Route
+Route::get('foo', function () {
+    return 'Hello World';
+});
